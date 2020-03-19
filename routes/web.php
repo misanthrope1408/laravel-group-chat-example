@@ -12,5 +12,6 @@
 */
 
 Route::get('/', function () {
+    broadcast(new \App\Events\WebsocketDemoEvent('my some data'));
     return view('welcome');
 });
