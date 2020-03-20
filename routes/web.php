@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    broadcast(new \App\Events\WebsocketDemoEvent('my some data'));
+    broadcast(new \App\Events\WebsocketDemoEvent('Someone enter on welcome page'));
     return view('welcome');
 });
 

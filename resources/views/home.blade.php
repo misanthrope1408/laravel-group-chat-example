@@ -14,7 +14,9 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    You are logged in!<br>
+                    go to <a href="{{ url('/chats') }}">Chats</a>
+
                 </div>
             </div>
         </div>
